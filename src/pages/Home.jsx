@@ -1,8 +1,11 @@
 import Container from '../components/Container';
 import { XMarkIcon } from '@heroicons/react/20/solid'
+import { Link, useNavigate} from 'react-router-dom';
 
 
 const Home = () => {
+
+    const navigate = useNavigate()
     return (
        
     <Container>
@@ -50,7 +53,7 @@ const Home = () => {
          50% of on all YA titles! Get your discount today!
         </p>
         <a
-          href="#"
+          href="#" onClick={() => navigate ("/books")}
           className="flex-none rounded-full bg-gray-900 py-1 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           Shop now! <span aria-hidden="true">&rarr;</span>

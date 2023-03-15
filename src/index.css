@@ -35,7 +35,8 @@ h3{
     font-size: 20px;
 }
 .bg-gray-3000{
-    background-color: radial-gradient(at left top, rgb(254, 205, 211), rgb(244, 114, 182), rgb(134, 25, 143));
+    background-color: radial-gradient(at left top, rgb(21, 94, 117), rgb(39, 39, 42), rgb(131, 24, 67))
+   
 }
 .book{
     padding-top: -10px;
