@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.sizing{
+   height: 450px;
+   width: 400px;
+}
+
+.sizing2{
+    height: 350px;
+    width: 300px;
+    /* padding-left: 20px; */
+    margin-left: 30px;
+ }
+h3{
+    font-size: 20px;
+}
+.bg-gray-3000{
+    background-color: radial-gradient(at left top, rgb(254, 205, 211), rgb(244, 114, 182), rgb(134, 25, 143));
+}
+.book{
+    padding-top: -10px;
+}
+.card-image{
+    height: 700px;
+    width: 500px;
+}
+#button{
+    padding-top: -20px;
+    margin-top: 20px;
+}
+.card-size{
+    width: 500px;
+    margin-left: 350px;
+    
+}
